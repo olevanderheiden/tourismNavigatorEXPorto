@@ -1,0 +1,16 @@
+{
+  "nl": {
+    "Welcome": "Welkom bij Tourism Navigator EX Plus!",
+    "Settings": "Instellingen",
+    "Home": "Thuis",
+    "Favorites": "Favorieten",
+    "FavoritesList": "Favorieten lijst",
+    "500": "Oeps er is iets mis gegaan! Probeer het later nog eens.",
+    "400": "Oeps je hebt iets niet helemaal goed gedaan! Controleer of je alles goed he bebt ingevuld.",
+    "loading":"Bezig met laden...",
+    "permissionExplanation": "Tourism Navigator EX Plus heeft toestemming nodig om je locatie tegebruiken. Dit is nodig om je huidige locatie op dekaartte kunnen tonen.",
+    "ListView": "Overzicht",
+    "overview": "Overview",
+    "settings": "Instellingen"
+  }
+}

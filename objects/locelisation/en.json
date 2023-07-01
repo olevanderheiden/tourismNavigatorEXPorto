@@ -1,0 +1,16 @@
+{
+  "en": {
+    "Welcome": "Welcome to tourism navigator!",
+    "Settings": "settings",
+    "Home": "Home",
+    "Favorites": "Favorites",
+    "FavoritesList": "List of Favorites",
+    "500": "Oops something whent wront! please try again later.",
+    "400": "Oops you entered something that could not be excepted! Check your entered values an try again.",
+    "loading":"Loading...",
+    "ListView": "List",
+    "overview": "Overview",
+    "settings": "Settings",
+    "permissionExplanation": "Tourism Navigator EX Plus requires location data to acuratly show your location on the mapp."
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "title": {
+        "en": "Porto Cathedral",
+        "nl": "Porto Kathedraal",
+        "pt": "Catedral do Porto"
+      },
+      "description": {
+        "en": "The Porto Cathedral, also known as Sé do Porto, is a Roman Catholic church located in the historic center of Porto. It is one of the city's oldest and most important landmarks.",
+        "nl": "De Porto Kathedraal, ook bekend als Sé do Porto, is een rooms-katholieke kerk gelegen in het historische centrum van Porto. Het is een van de oudste en belangrijkste bezienswaardigheden van de stad.",
+        "pt": "A Catedral do Porto, também conhecida como Sé do Porto, é uma igreja católica localizada no centro histórico do Porto. É um dos monumentos mais antigos e importantes da cidade."
+      },
+      "latitude": 41.1426,
+      "longitude": -8.6110
+    },
+    {
+      "title": {
+        "en": "Ribeira District",
+        "nl": "Ribeira Wijk",
+        "pt": "Bairro da Ribeira"
+      },
+      "description": {
+        "en": "The Ribeira District is a historic neighborhood in Porto, known for its colorful buildings, narrow streets, and charming riverside promenade. It offers stunning views of the Douro River.",
+        "nl": "De Ribeira Wijk is een historische buurt in Porto, bekend om zijn kleurrijke gebouwen, smalle straatjes en charmante promenade langs de rivier. Het biedt prachtig uitzicht op de rivier de Douro.",
+        "pt": "O Bairro da Ribeira é um bairro histórico no Porto, conhecido por seus prédios coloridos, ruas estreitas e charmoso passeio à beira do rio. Oferece vistas deslumbrantes do Rio Douro."
+      },
+      "latitude": 41.1408,
+      "longitude": -8.6115
+    },
+    {
+      "title": {
+        "en": "Livraria Lello",
+        "nl": "Livraria Lello",
+        "pt": "Livraria Lello"
+      },
+      "description": {
+        "en": "Livraria Lello is a famous bookstore in Porto, known for its stunning Neo-Gothic architecture, intricate wooden staircase, and beautiful stained glass windows. It is considered one of the most beautiful bookstores in the world.",
+        "nl": "Livraria Lello is een beroemde boekwinkel in Porto, bekend om zijn prachtige neogotische architectuur, ingewikkelde houten trap en prachtige glas-in-loodramen. Het wordt beschouwd als een van de mooiste boekwinkels ter wereld.",
+        "pt": "A Livraria Lello é uma famosa livraria no Porto, conhecida por sua deslumbrante arquitetura neogótica, escadaria de madeira intricada e belos vitrais. É considerada uma das livrarias mais bonitas do mundo."
+      },
+      "latitude": 41.1463,
+      "longitude": -8.6142
+    },
+    {
+      "title": {
+        "en": "Clerigos Tower",
+        "nl": "Torre dos Clérigos",
+        "pt": "Torre dos Clérigos"
+      },
+      "description": {
+        "en": "The Clerigos Tower is an iconic bell tower in Porto that offers panoramic views of the city. Visitors can climb the tower's 240 steps to enjoy breathtaking vistas of Porto's skyline.",
+        "nl": "De Torre dos Clérigos is een iconische klokkentoren in Porto die een panoramisch uitzicht over de stad biedt. Bezoekers kunnen de 240 treden van de toren beklimmen om te genieten van adembenemende uitzichten over de skyline van Porto.",
+        "pt": "A Torre dos Clérigos é um icônico campanário no Porto que oferece vistas panorâmicas da cidade. Os visitantes podem subir os 240 degraus da torre para apreciar vistas deslumbrantes do horizonte do Porto."
+      },
+      "latitude": 41.1462,
+      "longitude": -8.6149
+    },
+    {
+      "title": {
+        "en": "Serralves Museum",
+        "nl": "Serralves Museum",
+        "pt": "Museu de Serralves"
+      },
+      "description": {
+        "en": "The Serralves Museum is a contemporary art museum located in the Serralves Park. It features a remarkable collection of modern and contemporary artworks, including paintings, sculptures, and installations.",
+        "nl": "Het Serralves Museum is een museum voor hedendaagse kunst gelegen in het Serralves Park. Het heeft een opmerkelijke collectie moderne en hedendaagse kunstwerken, waaronder schilderijen, sculpturen en installaties.",
+        "pt": "O Museu de Serralves é um museu de arte contemporânea localizado no Parque de Serralves. Possui uma notável coleção de obras de arte moderna e contemporânea, incluindo pinturas, esculturas e instalações."
+      },
+      "latitude": 41.1599,
+      "longitude": -8.6605
+    },
+    {
+      "title": {
+        "en": "Porto City Park",
+        "nl": "Stadspark Porto",
+        "pt": "Parque da Cidade do Porto"
+      },
+      "description": {
+        "en": "Porto City Park, also known as Parque da Cidade, is a large urban park in Porto. It offers various recreational areas, walking trails, gardens, and stunning views of the Atlantic Ocean.",
+        "nl": "Het Stadspark Porto, ook bekend als Parque da Cidade, is een groot stadspark in Porto. Het biedt verschillende recreatiegebieden, wandelpaden, tuinen en een prachtig uitzicht op de Atlantische Oceaan.",
+        "pt": "O Parque da Cidade do Porto é um grande parque urbano no Porto. Oferece várias áreas de lazer, trilhas para caminhada, jardins e vistas deslumbrantes do Oceano Atlântico."
+      },
+      "latitude": 41.1615,
+      "longitude": -8.6750
+    },
+    {
+      "title": {
+        "en": "Liberdade Square",
+        "nl": "Praça da Liberdade",
+        "pt": "Praça da Liberdade"
+      },
+      "description": {
+        "en": "Liberdade Square is a central square in Porto, known for its beautiful architecture and historical significance. It is surrounded by notable buildings and serves as a gathering place for locals and visitors alike.",
+        "nl": "Praça da Liberdade is een centraal plein in Porto, bekend om zijn prachtige architectuur en historische betekenis. Het wordt omringd door opmerkelijke gebouwen en dient als een ontmoetingsplaats voor zowel de lokale bevolking als bezoekers.",
+        "pt": "A Praça da Liberdade é uma praça central no Porto, conhecida por sua bela arquitetura e significado histórico. É cercada por edifícios notáveis e serve como um ponto de encontro para moradores e visitantes."
+      },
+      "latitude": 41.1489,
+      "longitude": -8.6116
+    },
+    {
+      "title": {
+        "en": "Palácio da Bolsa",
+        "nl": "Palácio da Bolsa",
+        "pt": "Palácio da Bolsa"
+      },
+      "description": {
+        "en": "Palácio da Bolsa is a historic building in Porto that served as the city's stock exchange. It features stunning neoclassical architecture, opulent interiors, and hosts various cultural events.",
+        "nl": "Palácio da Bolsa is een historisch gebouw in Porto dat dienst deed als de beurs van de stad. Het heeft een prachtige neoklassieke architectuur, weelderige interieurs en organiseert diverse culturele evenementen.",
+        "pt": "O Palácio da Bolsa é um edifício histórico no Porto que serviu como a bolsa de valores da cidade. Possui uma deslumbrante arquitetura neoclássica, interiores opulentos e recebe diversos eventos culturais."
+      },
+      "latitude": 41.1405,
+      "longitude": -8.6147
+    },
+    {
+      "title": {
+        "en": "Porto Wine Cellars",
+        "nl": "Portowijnkelders",
+        "pt": "Caves de Vinho do Porto"
+      },
+      "description": {
+        "en": "The Porto Wine Cellars are famous wine cellars located in Vila Nova de Gaia, across the Douro River from Porto. Visitors can learn about the production and history of Port wine and enjoy tastings.",
+        "nl": "De Portowijnkelders zijn beroemde wijnkelders gelegen in Vila Nova de Gaia, aan de overkant van de rivier de Douro van Porto. Bezoekers kunnen meer leren over de productie en geschiedenis van Portwijn en genieten van proeverijen.",
+        "pt": "As Caves de Vinho do Porto são famosas caves de vinho localizadas em Vila Nova de Gaia, do outro lado do Rio Douro, em relação ao Porto. Os visitantes podem aprender sobre a produção e a história do vinho do Porto e desfrutar de degustações."
+      },
+      "latitude": 41.1366,
+      "longitude": -8.6172
+    },
+    {
+      "title": {
+        "en": "Matosinhos Beach",
+        "nl": "Matosinhos Strand",
+        "pt": "Praia de Matosinhos"
+      },
+      "description": {
+        "en": "Matosinhos Beach is a popular seaside destination near Porto, known for its golden sands, excellent surfing conditions, and fresh seafood restaurants. It's a great place to relax and enjoy the ocean.",
+        "nl": "Matosinhos Strand is een populaire badplaats nabij Porto, bekend om zijn gouden zandstranden, uitstekende surfomstandigheden en verse visrestaurants. Het is een geweldige plek om te ontspannen en van de oceaan te genieten.",
+        "pt": "A Praia de Matosinhos é um destino de praia popular perto do Porto, conhecida por suas areias douradas, excelentes condições para surfe e restaurantes de frutos do mar frescos. É um ótimo lugar para relaxar e aproveitar o oceano."
+      },
+      "latitude": 41.1780,
+      "longitude": -8.6895
+    },
+    {
+      "title": {
+        "en": "Douro River Cruise",
+        "nl": "Douro Riviercruise",
+        "pt": "Cruzeiro no Rio Douro"
+      },
+      "description": {
+        "en": "A Douro River cruise is a scenic boat trip along the Douro River, offering breathtaking views of the vineyard-covered hills, charming villages, and picturesque landscapes of the Douro Valley.",
+        "nl": "Een Douro Riviercruise is een schilderachtige boottocht langs de rivier de Douro, met adembenemende uitzichten op de met wijngaarden bedekte heuvels, charmante dorpjes en pittoreske landschappen van de Dourovallei.",
+        "pt": "Um cruzeiro no Rio Douro é um passeio de barco cênico ao longo do Rio Douro, oferecendo vistas deslumbrantes das colinas cobertas de vinhedos, aldeias encantadoras e paisagens pitorescas do Vale do Douro."
+      },
+      "latitude": 41.1397,
+      "longitude": -8.6093
+    },
+    {
+      "title": {
+        "en": "Crystal Palace Gardens",
+        "nl": "Tuinen van het Crystal Palace",
+        "pt": "Jardins do Palácio de Cristal"
+      },
+      "description": {
+        "en": "The Crystal Palace Gardens, also known as Jardins do Palácio de Cristal, are beautiful gardens in Porto with manicured lawns, exotic plants, and stunning views over the city and the Douro River.",
+        "nl": "De Tuinen van het Crystal Palace, ook bekend als Jardins do Palácio de Cristal, zijn prachtige tuinen in Porto met verzorgde gazons, exotische planten en een prachtig uitzicht over de stad en de rivier de Douro.",
+        "pt": "Os Jardins do Palácio de Cristal, também conhecidos como Crystal Palace Gardens, são belos jardins no Porto com gramados bem cuidados, plantas exóticas e vistas deslumbrantes sobre a cidade e o Rio Douro."
+      },
+      "latitude": 41.1492,
+      "longitude": -8.6153
+    },
+    {
+      "title": {
+        "en": "Foz do Douro",
+        "nl": "Foz do Douro",
+        "pt": "Foz do Douro"
+      },
+      "description": {
+        "en": "Foz do Douro is a charming neighborhood located at the mouth of the Douro River, where it meets the Atlantic Ocean. It offers beautiful beaches, seaside promenades, and a lively atmosphere.",
+        "nl": "Foz do Douro is een charmante wijk gelegen aan de monding van de rivier de Douro, waar deze de Atlantische Oceaan ontmoet. Het biedt prachtige stranden, boulevards langs de kust en een levendige sfeer.",
+        "pt": "A Foz do Douro é um bairro encantador localizado na foz do Rio Douro, onde este encontra o Oceano Atlântico. Oferece belas praias, passeios à beira-mar e uma atmosfera animada."
+      },
+      "latitude": 41.1507,
+      "longitude": -8.6746
+    },
+    {
+      "title": {
+        "en": "São Bento Train Station",
+        "nl": "São Bento Treinstation",
+        "pt": "Estação de São Bento"
+      },
+      "description": {
+        "en": "São Bento Train Station is a historic train station in Porto, known for its beautiful azulejo tile panels that depict scenes from Portuguese history. It is considered one of the most beautiful train stations in the world.",
+        "nl": "São Bento Treinstation is een historisch treinstation in Porto, bekend om zijn prachtige azulejo-tegelpanelen die scènes uit de Portugese geschiedenis afbeelden. Het wordt beschouwd als een van de mooiste treinstations ter wereld.",
+        "pt": "A Estação de São Bento é uma estação de trem histórica no Porto, conhecida por seus belos painéis de azulejo que retratam cenas da história portuguesa. É considerada uma das estações de trem mais bonitas do mundo."
+      },
+      "latitude": 41.1457,
+      "longitude": -8.6101
+    },
+    {
+      "title": {
+        "en": "Casa da Música",
+        "nl": "Casa da Música",
+        "pt": "Casa da Música"
+      },
+      "description": {
+        "en": "Casa da Música is a modern concert hall in Porto, renowned for its unique architecture and world-class acoustics. It hosts a wide range of musical performances and cultural events throughout the year.",
+        "nl": "Casa da Música is een modern concertgebouw in Porto, bekend om zijn unieke architectuur en wereldklasse akoestiek. Het biedt een breed scala aan muzikale optredens en culturele evenementen gedurende het hele jaar.",
+        "pt": "A Casa da Música é uma sala de concertos moderna no Porto, renomada por sua arquitetura única e acústica de classe mundial. Ela recebe uma ampla variedade de apresentações musicais e eventos culturais ao longo do ano."
+      },
+      "latitude": 41.1589,
+      "longitude": -8.6309
+    },
+    {
+      "title": {
+        "en": "Porto Botanical Garden",
+        "nl": "Botanische Tuin van Porto",
+        "pt": "Jardim Botânico do Porto"
+      },
+      "description": {
+        "en": "Porto Botanical Garden, also known as Jardim Botânico do Porto, is a tranquil oasis in the heart of the city. It features a diverse collection of plants, ponds, and peaceful walking paths.",
+        "nl": "De Botanische Tuin van Porto, ook bekend als Jardim Botânico do Porto, is een rustige oase in het hart van de stad. Het heeft een diverse collectie planten, vijvers en vredige wandelpaden.",
+        "pt": "O Jardim Botânico do Porto é um oásis tranquilo no coração da cidade. Possui uma diversificada coleção de plantas, lagoas e caminhos tranquilos para passear."
+      },
+      "latitude": 41.1539,
+      "longitude": -8.6301
+    },
+    {
+      "title": {
+        "en": "Porto Cathedral",
+        "nl": "Kathedraal van Porto",
+        "pt": "Catedral do Porto"
+      },
+      "description": {
+        "en": "Porto Cathedral, also known as Sé do Porto, is a stunning medieval cathedral in the city's historic center. It features impressive Gothic architecture and offers panoramic views from its terrace.",
+        "nl": "De Kathedraal van Porto, ook bekend als Sé do Porto, is een prachtige middeleeuwse kathedraal in het historische centrum van de stad. Het heeft indrukwekkende gotische architectuur en biedt panoramisch uitzicht vanaf het terras.",
+        "pt": "A Catedral do Porto, também conhecida como Sé do Porto, é uma deslumbrante catedral medieval no centro histórico da cidade. Possui uma impressionante arquitetura gótica e oferece vistas panorâmicas do seu terraço."
+      },
+      "latitude": 41.1422,
+      "longitude": -8.6110
+    },
+    {
+      "title": {
+        "en": "Ribeira District",
+        "nl": "Ribeira Wijk",
+        "pt": "Bairro da Ribeira"
+      },
+      "description": {
+        "en": "The Ribeira District is a picturesque neighborhood in Porto, located along the banks of the Douro River. It is known for its colorful buildings, narrow streets, and lively atmosphere with numerous restaurants and bars.",
+        "nl": "De Ribeira Wijk is een pittoreske wijk in Porto, gelegen langs de oevers van de rivier de Douro. Het staat bekend om zijn kleurrijke gebouwen, smalle straatjes en levendige sfeer met talloze restaurants en bars.",
+        "pt": "O Bairro da Ribeira é um bairro pitoresco no Porto, localizado ao longo das margens do Rio Douro. É conhecido por seus prédios coloridos, ruas estreitas e atmosfera animada, com inúmeros restaurantes e bares."
+      },
+      "latitude": 41.1401,
+      "longitude": -8.6110
+    },
+    {
+      "title": {
+        "en": "Porto City Hall",
+        "nl": "Stadhuis van Porto",
+        "pt": "Câmara Municipal do Porto"
+      },
+      "description": {
+        "en": "Porto City Hall, also known as Câmara Municipal do Porto, is an impressive building located in the heart of the city. It showcases beautiful architectural details and houses the administrative offices of Porto's local government.",
+        "nl": "Het Stadhuis van Porto, ook bekend als Câmara Municipal do Porto, is een indrukwekkend gebouw gelegen in het hart van de stad. Het toont prachtige architectonische details en herbergt de administratieve kantoren van de lokale overheid van Porto.",
+        "pt": "A Câmara Municipal do Porto é um edifício impressionante localizado no coração da cidade. Ele exibe belos detalhes arquitetônicos e abriga os escritórios administrativos do governo local do Porto."
+      },
+      "latitude": 41.1496,
+      "longitude": -8.6109
+    },
+    {
+      "title": {
+        "en": "Lello Bookstore",
+        "nl": "Livraria Lello",
+        "pt": "Livraria Lello"
+      },
+      "description": {
+        "en": "Lello Bookstore is a famous bookstore in Porto, known for its stunning Art Nouveau architecture and impressive collection of books. It is considered one of the most beautiful bookstores in the world.",
+        "nl": "Livraria Lello is een beroemde boekwinkel in Porto, bekend om zijn prachtige art-nouveaugebouw en indrukwekkende collectie boeken. Het wordt beschouwd als een van de mooiste boekwinkels ter wereld.",
+        "pt": "A Livraria Lello é uma famosa livraria no Porto, conhecida por sua deslumbrante arquitetura art nouveau e impressionante coleção de livros. É considerada uma das livrarias mais bonitas do mundo."
+      },
+      "latitude": 41.1466,
+      "longitude": -8.6116
+    },
+    {
+      "title": {
+        "en": "Porto City Park",
+        "nl": "Stadspark van Porto",
+        "pt": "Parque da Cidade do Porto"
+      },
+      "description": {
+        "en": "Porto City Park, also known as Parque da Cidade do Porto, is a large urban park that offers a peaceful retreat from the bustling city. It features expansive green spaces, gardens, and sports facilities.",
+        "nl": "Het Stadspark van Porto, ook bekend als Parque da Cidade do Porto, is een groot stads park dat een vredige toevluchtsoord biedt van de drukke stad. Het heeft uitgestrekte groene ruimtes, tuinen en sportfaciliteiten.",
+        "pt": "O Parque da Cidade do Porto é um grande parque urbano que oferece um refúgio tranquilo da agitação da cidade. Possui espaços verdes amplos, jardins e instalações esportivas."
+      },
+      "latitude": 41.1653,
+      "longitude": -8.6691
+    },
+    {
+      "title": {
+        "en": "Porto Tram Museum",
+        "nl": "Trammuseum van Porto",
+        "pt": "Museu do Elétrico do Porto"
+      },
+      "description": {
+        "en": "Porto Tram Museum, also known as Museu do Elétrico do Porto, showcases the history of trams in Porto through a collection of vintage trams, photographs, and artifacts. It offers an interesting glimpse into the city's transportation heritage.",
+        "nl": "Het Trammuseum van Porto, ook bekend als Museu do Elétrico do Porto, toont de geschiedenis van trams in Porto aan de hand van een collectie vintage trams, foto's en artefacten. Het biedt een interessante kijk op het transporterfgoed van de stad.",
+        "pt": "O Museu do Elétrico do Porto é um museu que apresenta a história dos bondes no Porto por meio de uma coleção de bondes antigos, fotografias e artefatos. Ele oferece uma visão interessante do patrimônio de transporte da cidade."
+      },
+      "latitude": 41.1497,
+      "longitude": -8.6398
+    },
+    {
+      "title": {
+        "en": "Serralves Museum",
+        "nl": "Museu de Serralves",
+        "pt": "Museu de Serralves"
+      },
+      "description": {
+        "en": "Serralves Museum is a contemporary art museum located in the Serralves Park. It features exhibitions of modern and contemporary art, as well as beautiful gardens and outdoor sculptures.",
+        "nl": "Het Museu de Serralves is een museum voor hedendaagse kunst dat zich bevindt in het Serralves Park. Het heeft tentoonstellingen van moderne en hedendaagse kunst, evenals prachtige tuinen en buitenbeelden.",
+        "pt": "O Museu de Serralves é um museu de arte contemporânea localizado no Parque de Serralves. Apresenta exposições de arte moderna e contemporânea, além de belos jardins e esculturas ao ar livre."
+      },
+      "latitude": 41.1597,
+      "longitude": -8.6608
+    },
+    {
+      "title": {
+        "en": "Church of São Francisco",
+        "nl": "Igreja de São Francisco",
+        "pt": "Igreja de São Francisco"
+      },
+      "description": {
+        "en": "The Church of São Francisco is a Gothic church in Porto, known for its lavish Baroque interior. It is adorned with intricate woodwork, gilded carvings, and stunning golden altarpieces.",
+        "nl": "De Igreja de São Francisco is een gotische kerk in Porto, bekend om zijn weelderige barokke interieur. Het is versierd met complex houtsnijwerk, vergulde beeldhouwwerken en prachtige vergulde altaarstukken.",
+        "pt": "A Igreja de São Francisco é uma igreja gótica no Porto, conhecida por seu interior barroco suntuoso. Ela é adornada com trabalhos em madeira intricados, entalhes dourados e impressionantes retábulos dourados."
+      },
+      "latitude": 41.1400,
+      "longitude": -8.6155
+    }
+  ]
+}
