@@ -1,5 +1,5 @@
 import {StatusBar} from 'expo-status-bar';
-import {StyleSheet, Text, View, SafeAreaView, Platform, useColorScheme} from 'react-native';
+import {Text, View, SafeAreaView, Platform, useColorScheme} from 'react-native';
 import ViewMap from './objects/pages/Map';
 import {getLocales, getCalendars} from "expo-localization";
 import {I18n} from "i18n-js";
@@ -16,14 +16,20 @@ import pt from "./objects/locelisation/pt.json"
 import {AsyncStorage} from 'react-native';
 import {blue100, blue200, blue900} from "react-native-paper/src/styles/themes/v2/colors";
 import ListView from "./objects/pages/ListView";
+import {styles} from "./objects/components/style";
+
 
 
 const Tab = createMaterialBottomTabNavigator();
 export default function App() {
     const [theme, setTheme] = useState(useColorScheme());
 
+    //Location prop
+    const [location,setLocation] = useState({});
+
 
     const [lang, setlang] = useState(getLocales()[0].languageCode);
+
 
 
 //localisation config
@@ -67,7 +73,7 @@ export default function App() {
                             }
                         }
                     >{
-                        (props) => (<ViewMap i18n={i18n}/>)
+                        (props) => (<ViewMap i18n={i18n} location={location} setLocation={setLocation}/>)
                     }</Tab.Screen>
 
                     <Tab.Screen
@@ -82,7 +88,7 @@ export default function App() {
                             }
                         }
                     >{
-                        (props) => (<ListView i18n={i18n}/>)
+                        (props) => (<ListView i18n={i18n} location={location} setLocation={setLocation}/>)
                     }</Tab.Screen>
 
 
@@ -98,7 +104,7 @@ export default function App() {
                             }
                         }
                     >{
-                        (props) => (<Favorites i18n={i18n}/>)
+                        (props) => (<Favorites i18n={i18n} location={location} setLocation={setLocation}/>)
                     }</Tab.Screen>
 
 
@@ -114,7 +120,7 @@ export default function App() {
                             }
                         }
                     >{
-                        (props) => (<SettingsView i18n={i18n}/>)
+                        (props) => (<SettingsView i18n={i18n} lang = {lang} setLang = {setlang} />)
                     }</Tab.Screen>
 
                 </Tab.Navigator>
@@ -122,32 +128,3 @@ export default function App() {
         </NavigationContainer>
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    containerDark: {
-        flex: 1,
-
-        backgroundColor: '#000000',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    navContainer: {
-        flex: 1,
-        backgroundColor: blue100,
-        paddingTop: Platform.OS === 'android' ? 30 : 0,
-        height: '100%'
-    },
-    navContainerDark: {
-        flex: 1,
-        backgroundColor: blue900,
-        paddingTop: Platform.OS === 'android' ? 30 : 0,
-        height: '100%'
-    }
-});

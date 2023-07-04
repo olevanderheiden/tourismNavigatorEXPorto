@@ -11,6 +11,7 @@
     "ListView": "List",
     "overview": "Overview",
     "settings": "Settings",
-    "permissionExplanation": "Tourism Navigator EX Plus requires location data to acuratly show your location on the mapp."
+    "permissionExplanation": "Tourism Navigator EX Plus requires location data to acuratly show your location on the mapp.",
+    "myLocation": "My Location"
   }
 }

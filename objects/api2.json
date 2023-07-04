@@ -28,20 +28,7 @@
       "latitude": 41.1408,
       "longitude": -8.6115
     },
-    {
-      "title": {
-        "en": "Livraria Lello",
-        "nl": "Livraria Lello",
-        "pt": "Livraria Lello"
-      },
-      "description": {
-        "en": "Livraria Lello is a famous bookstore in Porto, known for its stunning Neo-Gothic architecture, intricate wooden staircase, and beautiful stained glass windows. It is considered one of the most beautiful bookstores in the world.",
-        "nl": "Livraria Lello is een beroemde boekwinkel in Porto, bekend om zijn prachtige neogotische architectuur, ingewikkelde houten trap en prachtige glas-in-loodramen. Het wordt beschouwd als een van de mooiste boekwinkels ter wereld.",
-        "pt": "A Livraria Lello é uma famosa livraria no Porto, conhecida por sua deslumbrante arquitetura neogótica, escadaria de madeira intricada e belos vitrais. É considerada uma das livrarias mais bonitas do mundo."
-      },
-      "latitude": 41.1463,
-      "longitude": -8.6142
-    },
+
     {
       "title": {
         "en": "Livraria Lello",
@@ -240,34 +227,6 @@
     },
     {
       "title": {
-        "en": "Porto Cathedral",
-        "nl": "Kathedraal van Porto",
-        "pt": "Catedral do Porto"
-      },
-      "description": {
-        "en": "Porto Cathedral, also known as Sé do Porto, is a stunning medieval cathedral in the city's historic center. It features impressive Gothic architecture and offers panoramic views from its terrace.",
-        "nl": "De Kathedraal van Porto, ook bekend als Sé do Porto, is een prachtige middeleeuwse kathedraal in het historische centrum van de stad. Het heeft indrukwekkende gotische architectuur en biedt panoramisch uitzicht vanaf het terras.",
-        "pt": "A Catedral do Porto, também conhecida como Sé do Porto, é uma deslumbrante catedral medieval no centro histórico da cidade. Possui uma impressionante arquitetura gótica e oferece vistas panorâmicas do seu terraço."
-      },
-      "latitude": 41.1422,
-      "longitude": -8.6110
-    },
-    {
-      "title": {
-        "en": "Ribeira District",
-        "nl": "Ribeira Wijk",
-        "pt": "Bairro da Ribeira"
-      },
-      "description": {
-        "en": "The Ribeira District is a picturesque neighborhood in Porto, located along the banks of the Douro River. It is known for its colorful buildings, narrow streets, and lively atmosphere with numerous restaurants and bars.",
-        "nl": "De Ribeira Wijk is een pittoreske wijk in Porto, gelegen langs de oevers van de rivier de Douro. Het staat bekend om zijn kleurrijke gebouwen, smalle straatjes en levendige sfeer met talloze restaurants en bars.",
-        "pt": "O Bairro da Ribeira é um bairro pitoresco no Porto, localizado ao longo das margens do Rio Douro. É conhecido por seus prédios coloridos, ruas estreitas e atmosfera animada, com inúmeros restaurantes e bares."
-      },
-      "latitude": 41.1401,
-      "longitude": -8.6110
-    },
-    {
-      "title": {
         "en": "Porto City Hall",
         "nl": "Stadhuis van Porto",
         "pt": "Câmara Municipal do Porto"
@@ -280,34 +239,7 @@
       "latitude": 41.1496,
       "longitude": -8.6109
     },
-    {
-      "title": {
-        "en": "Lello Bookstore",
-        "nl": "Livraria Lello",
-        "pt": "Livraria Lello"
-      },
-      "description": {
-        "en": "Lello Bookstore is a famous bookstore in Porto, known for its stunning Art Nouveau architecture and impressive collection of books. It is considered one of the most beautiful bookstores in the world.",
-        "nl": "Livraria Lello is een beroemde boekwinkel in Porto, bekend om zijn prachtige art-nouveaugebouw en indrukwekkende collectie boeken. Het wordt beschouwd als een van de mooiste boekwinkels ter wereld.",
-        "pt": "A Livraria Lello é uma famosa livraria no Porto, conhecida por sua deslumbrante arquitetura art nouveau e impressionante coleção de livros. É considerada uma das livrarias mais bonitas do mundo."
-      },
-      "latitude": 41.1466,
-      "longitude": -8.6116
-    },
-    {
-      "title": {
-        "en": "Porto City Park",
-        "nl": "Stadspark van Porto",
-        "pt": "Parque da Cidade do Porto"
-      },
-      "description": {
-        "en": "Porto City Park, also known as Parque da Cidade do Porto, is a large urban park that offers a peaceful retreat from the bustling city. It features expansive green spaces, gardens, and sports facilities.",
-        "nl": "Het Stadspark van Porto, ook bekend als Parque da Cidade do Porto, is een groot stads park dat een vredige toevluchtsoord biedt van de drukke stad. Het heeft uitgestrekte groene ruimtes, tuinen en sportfaciliteiten.",
-        "pt": "O Parque da Cidade do Porto é um grande parque urbano que oferece um refúgio tranquilo da agitação da cidade. Possui espaços verdes amplos, jardins e instalações esportivas."
-      },
-      "latitude": 41.1653,
-      "longitude": -8.6691
-    },
+
     {
       "title": {
         "en": "Porto Tram Museum",
@@ -322,20 +254,7 @@
       "latitude": 41.1497,
       "longitude": -8.6398
     },
-    {
-      "title": {
-        "en": "Serralves Museum",
-        "nl": "Museu de Serralves",
-        "pt": "Museu de Serralves"
-      },
-      "description": {
-        "en": "Serralves Museum is a contemporary art museum located in the Serralves Park. It features exhibitions of modern and contemporary art, as well as beautiful gardens and outdoor sculptures.",
-        "nl": "Het Museu de Serralves is een museum voor hedendaagse kunst dat zich bevindt in het Serralves Park. Het heeft tentoonstellingen van moderne en hedendaagse kunst, evenals prachtige tuinen en buitenbeelden.",
-        "pt": "O Museu de Serralves é um museu de arte contemporânea localizado no Parque de Serralves. Apresenta exposições de arte moderna e contemporânea, além de belos jardins e esculturas ao ar livre."
-      },
-      "latitude": 41.1597,
-      "longitude": -8.6608
-    },
+
     {
       "title": {
         "en": "Church of São Francisco",

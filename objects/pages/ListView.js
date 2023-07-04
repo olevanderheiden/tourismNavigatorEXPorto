@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {FlatList, Pressable, StyleSheet, Text, View} from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {Item} from "../components/listItem";
+import {styles} from "../components/style";
 
 
 export default function ListView({i18n}) {
@@ -19,14 +21,8 @@ export default function ListView({i18n}) {
         }
     };
 
-    //Creates items to show in listview based on api data
-    const Item = ({landMarkObject}) => (
-        <View style={styles.container}>
-            <Pressable onPress={() => addToFavorites(landMarkObject)}>
-            <Text style={styles.button}>{landMarkObject.title.nl}</Text>
-            </Pressable>
-        </View>
-    );
+//item:
+
 
     // Function to add product to favorites.
     async function addToFavorites(landMarkObject)
@@ -81,7 +77,7 @@ export default function ListView({i18n}) {
                     data={
                     data
                     }
-                 renderItem={({item})=> <Item landMarkObject={item} />}/>
+                 renderItem={({item})=> <Item landMarkObject={item} i18n={i18n} />}/>
 
             </React.Fragment>
         )
@@ -89,39 +85,3 @@ export default function ListView({i18n}) {
 
 
 }
-
-const styles = StyleSheet.create({
-    screen: {
-        marginTop: 30,
-    },
-    row: {
-        alignContent: "center",
-        margin: 15,
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
-        paddingHorizontal: 2,
-    },
-    rowText: {
-        fontSize: 10,
-    },
-    button:{
-        alignSelf:"center",
-        width: "40%",
-        marginTop: 16,
-        paddingVertical:8,
-        borderWidth: 1,
-        borderColor:'#2032a',
-        borderRadius:1,
-        // backgroundColor:'#61dafb',
-        color:'#20232a',
-        textAlign:"center",
-        fontSize:13,
-        // fontWeight:'bold',
-        overflow:"hidden"
-
-    },
-    title: {
-        textAlign: "center"
-    }
-})

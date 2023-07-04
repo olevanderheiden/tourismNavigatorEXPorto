@@ -1,53 +1,50 @@
 import React from "react";
 import {Button, StyleSheet, Text, View} from "react-native";
 import {black, blue200, white} from "react-native-paper/src/styles/themes/v2/colors";
+import { Col, Row, Grid } from "react-native-easy-grid";
+import {Title} from "react-native-paper";
+import title from "react-native-paper/src/components/Typography/v2/Title";
+import {styles} from "../components/style";
 
-export default function SettingsView({i18n}) {
+export default function SettingsView({i18n}, lang, setLang) {
 
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
                 {i18n.t("settings")}
             </Text>
-            <Button style={styles.button}
-                    // onPress={englishLangButton}
-                    title="English"
-                    accessibilityLabel="English language button"
-            />
 
-            <Button style={styles.button}
-                    // onPress={dutchLangButton}
-                    title="Nederlands"
-                    accessibilityLabel="Nederlandse taal knop"
-            />
+            <Grid>
+                <Col>
+                    <Button style={styles.button}
+                        onPress={setLang('en')}
+                            title="English"
+                            accessibilityLabel="English language button"
+                    />
+                </Col>
 
-            <Button style={styles.button}
-                    // onPress={portugueseLangButton}
-                    title="Português"
-                    accessibilityLabel="Botão de idioma português"
-            />
+                <Col>
+                    <Button style={styles.button}
+                        onPress={setLang('nl')}
+                            title="Nederlands"
+                            accessibilityLabel="Nederlandse taal knop"
+                    />
+                </Col>
+                <Col>
+                    <Button style={styles.button}
+                        onPress={setLang('pt')}
+                            title="Português"
+                            accessibilityLabel="Botão de idioma português"
+                    />
+                </Col>
+            </Grid>
+
+
+
+
+
+
 
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#eaeaea"
-    },
-    darkText: {
-        color: white,
-        fontSize: 30
-    },
-    lightText: {
-        color: black,
-        fontSize: 30
-    },
-    button: {
-        backgroundColor: blue200
-    },
-    title: {
-        textAlign: "center"
-    }
-})

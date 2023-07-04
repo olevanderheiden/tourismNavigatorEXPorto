@@ -1,32 +1,36 @@
 import React, {useEffect, useState} from "react";
-import {Text, StyleSheet, View, PermissionsAndroid, Platform, Button } from "react-native";
+import {Text, View, PermissionsAndroid, Platform, Button } from "react-native";
 import MapView, {Marker} from "react-native-maps";
-import * as location from 'expo-localization';
+import * as Location from 'expo-location';
 import {getLocales} from "expo-localization";
+import {green100} from "react-native-paper/src/styles/themes/v2/colors";
+import {styles} from "../components/style";
 
 
 
 
-export default function ViewMap({i18n}) {
+export default function ViewMap({i18n}, {lang}) {
+
+    console.log("Language: ",lang)
 
 //Aquire device location data
-    const [location,setLocation] = useState({});
+
+    const [location,setLocation] = useState(null);
+
     useEffect(()=>{
         (async ()=>{
-            let {status} = await location.requestForegroundPermissionsAsync()
-            if (status === 'granted'){
-                console.log("permission granted!")
+            let {status} = await Location.requestForegroundPermissionsAsync()
+            if (status !== 'granted'){
+                console.log("no permission granted!")
                 return
             }
-            else
-            {
-                console.log("no permission granted!")
-            }
-            const loc = await location.getCurrentPositionAsync()
 
-            setLocation(JSON.parse(loc));
 
-            console.log("location data: ",location)
+            const loc = await Location.getCurrentPositionAsync()
+
+            setLocation(loc);
+
+            console.log("location data: ",loc)
         })()
     })
 
@@ -59,7 +63,7 @@ export default function ViewMap({i18n}) {
                 </Text>
             </View>)
     } else {
-        // console.log(data)
+        // console.log("location data hoera...:",location)
         return (
             <React.Fragment>
                 <Text style={styles.title}>
@@ -70,12 +74,25 @@ export default function ViewMap({i18n}) {
                          howsUserLocation
                          showsMyLocationButton
                          initialRegion={{
-                             latitude: 41.1496,
-                             longitude: -8.6110,
+
+                             latitude: location.coords.latitude !== null ? location.coords.latitude
+                             : 41.14961,
+                             longitude: location.coords.longitude !== null ? location.coords.longitude: -8.61099,
                              latitudeDelta: 0.0922,
                              longitudeDelta: 0.0421,
                          }}
                 >
+                    {location.coords.latitude &&( <Marker coordinate={
+                        {
+                            latitude: location.coords.latitude,
+                            longitude: location.coords.longitude,
+                        }
+                    }
+                    title={
+                        i18n.t('myLocation')
+                    }
+                    pinColor={green100}
+                    />)}
                     {
                         data.map((landMark) => (<Marker
 
@@ -87,11 +104,20 @@ export default function ViewMap({i18n}) {
 
                         }
                             title={
-                                landMark.title.nl
+
+                                i18n.locale === "nl"
+                                        ? landMark.title.nl
+                                        : i18n.locale === "pt"
+                                            ? landMark.title.pt
+                                            : landMark.title.en
                             }
                             description={
 
-                                landMark.description.nl
+                                i18n.locale === "nl"
+                                    ? landMark.description.nl
+                                    : i18n.locale === "pt"
+                                        ? landMark.description.pt
+                                        : landMark.description.en
                             }
                         />))
                     }
@@ -99,17 +125,3 @@ export default function ViewMap({i18n}) {
             </React.Fragment>)
     }
 }
-
-
-const styles = StyleSheet.create({
-    map: {
-        width: '100%',
-        height: '100%',
-    },
-    safe: {
-        flex: 1,
-    },
-    title: {
-        textAlign: "center"
-    }
-});

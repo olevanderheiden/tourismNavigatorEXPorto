@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {FlatList, Pressable, StyleSheet, Text, View} from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {styles} from "../components/style";
 
 
 export default function FavoritesView({i18n}) {
@@ -24,7 +25,12 @@ export default function FavoritesView({i18n}) {
     const Item = ({landMarkObject}) => (
         <View style={styles.container}>
             <Text>
-                {landMarkObject.title.nl}
+                {
+                    i18n.locale() === "nl"
+                        ? landMarkObject.title.nl
+                        : i18n.locale() === "pt"
+                            ? landMarkObject.title.pt
+                            : landMarkObject.title.en}
             </Text>
         </View>
     );
@@ -64,16 +70,4 @@ export default function FavoritesView({i18n}) {
     }
 
 }
-const styles = StyleSheet.create({
-    map: {
-        width: '100%',
-        height: '100%',
-    },
-    safe: {
-        flex: 1,
-    },
-    title: {
-        textAlign: "center"
-    }
-});
 
