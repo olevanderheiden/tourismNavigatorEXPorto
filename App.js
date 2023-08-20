@@ -22,7 +22,8 @@ import {styles} from "./objects/components/style";
 
 const Tab = createMaterialBottomTabNavigator();
 export default function App() {
-    const [theme, setTheme] = useState(useColorScheme());
+    const theme = useColorScheme();
+
 
     //Location prop
     const [location,setLocation] = useState({});
@@ -47,18 +48,13 @@ export default function App() {
 
     return (
         <NavigationContainer>
-            <SafeAreaView style={{
-                flex: 1,
-                backgroundColor: blue100,
-                paddingTop: Platform.OS === 'android' ? 30 : 0,
-                height: '100%'
-            }}>
+            <SafeAreaView style={theme === 'light'? styles.safeAreaView: styles.safeAreaViewDark}>
                 <Tab.Navigator
                     initialRouteName="Home"
                     id='NavFooter'
                     activeColor="green"
                     inactiveColor='slategray'
-                    barStyle={{backgroundColor: blue100}}
+                    barStyle={theme === 'light'? styles.barStyle: styles.barStyleDark}
                 >
 
                     <Tab.Screen
@@ -88,7 +84,7 @@ export default function App() {
                             }
                         }
                     >{
-                        (props) => (<ListView i18n={i18n} location={location} setLocation={setLocation}/>)
+                        (props) => (<ListView i18n={i18n} theme = {theme} location={location} setLocation={setLocation}/>)
                     }</Tab.Screen>
 
 
@@ -104,24 +100,24 @@ export default function App() {
                             }
                         }
                     >{
-                        (props) => (<Favorites i18n={i18n} location={location} setLocation={setLocation}/>)
+                        (props) => (<Favorites i18n={i18n} theme = {theme}location={location} setLocation={setLocation}/>)
                     }</Tab.Screen>
 
 
-                    <Tab.Screen
-                        name="Settings"
-                        options={
-                            {
-                                labeled: false,
-                                tabBarLabel: i18n.t('Settings'),
-                                tabBarIcon: ({color}) => (
-                                    <MaterialCommunityIcons name="account-settings" color={color} size={26}/>
-                                ),
-                            }
-                        }
-                    >{
-                        (props) => (<SettingsView i18n={i18n} lang = {lang} setLang = {setlang} />)
-                    }</Tab.Screen>
+                    {/*<Tab.Screen*/}
+                    {/*    name="Settings"*/}
+                    {/*    options={*/}
+                    {/*        {*/}
+                    {/*            labeled: false,*/}
+                    {/*            tabBarLabel: i18n.t('Settings'),*/}
+                    {/*            tabBarIcon: ({color}) => (*/}
+                    {/*                <MaterialCommunityIcons name="account-settings" color={color} size={26}/>*/}
+                    {/*            ),*/}
+                    {/*        }*/}
+                    {/*    }*/}
+                    {/*>{*/}
+                    {/*    (props) => (<SettingsView i18n={i18n} lang = {lang} setLang = {setlang} />)*/}
+                    {/*}</Tab.Screen>*/}
 
                 </Tab.Navigator>
             </SafeAreaView>

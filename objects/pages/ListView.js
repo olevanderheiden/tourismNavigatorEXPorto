@@ -5,7 +5,7 @@ import {Item} from "../components/listItem";
 import {styles} from "../components/style";
 
 
-export default function ListView({i18n}) {
+export default function ListView({i18n},theme) {
 
     //aquire marker locations from api
     const [data, setData] = useState([]);
@@ -29,24 +29,21 @@ export default function ListView({i18n}) {
     {
 
             let landMarks = await AsyncStorage.getItem('landMarks');
-            console.log("Landmarks before update: ",landMarks);
             if (landMarks) {
                 landMarks = JSON.parse(landMarks);
                 if (landMarkObject in landMarks)
                 {
-                    console.log('already exists in favorites')
+
                     return;
                 }
                 else {
                     landMarks.push(landMarkObject);
                     await AsyncStorage.setItem('landMarks', JSON.stringify(landMarks));
-                    console.log('landMarks updated');
                 }
 
             }
             else
             {
-                console.log("LandMark created");
                 await AsyncStorage.setItem('landMarks',JSON.stringify(landMarkObject));
             }
 
@@ -60,7 +57,6 @@ export default function ListView({i18n}) {
     }, []);
 
     if (!loaded) {
-        console.log('loading')
         return (
             <View>
                 <Text>
@@ -70,7 +66,7 @@ export default function ListView({i18n}) {
     } else {
         return (
             <React.Fragment>
-                <Text style={styles.title}>
+                <Text style={theme === 'l'? styles.title: styles.titleDark}>
                     {i18n.t('overview')}
                 </Text>
                 <FlatList style={{flex:1}}

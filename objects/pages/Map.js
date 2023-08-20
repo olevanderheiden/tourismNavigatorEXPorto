@@ -1,19 +1,26 @@
 import React, {useEffect, useState} from "react";
-import {Text, View, PermissionsAndroid, Platform, Button } from "react-native";
+import {Text, View, PermissionsAndroid, Platform, Button} from "react-native";
 import MapView, {Marker} from "react-native-maps";
 import * as Location from 'expo-location';
 import {getLocales} from "expo-localization";
 import {green100} from "react-native-paper/src/styles/themes/v2/colors";
 import {styles} from "../components/style";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
+const callAsyncStorage = async () => {
+    try {
+        const favorites = await AsyncStorage.getItem('favorites');
+    } catch (error) {
+        console.error('Error storing favorites in AsyncStorage:', error);
+    }
+};
 
 
-export default function ViewMap({i18n}, {lang}) {
+export default function ViewMap({i18n}, {lang}, theme) {
 
-    console.log("Language: ",lang)
 
-//Aquire device location data
+//Acquire device location data
 
     const [location,setLocation] = useState(null);
 
@@ -21,7 +28,6 @@ export default function ViewMap({i18n}, {lang}) {
         (async ()=>{
             let {status} = await Location.requestForegroundPermissionsAsync()
             if (status !== 'granted'){
-                console.log("no permission granted!")
                 return
             }
 
@@ -30,7 +36,7 @@ export default function ViewMap({i18n}, {lang}) {
 
             setLocation(loc);
 
-            console.log("location data: ",loc)
+
         })()
     })
 
@@ -49,7 +55,7 @@ export default function ViewMap({i18n}, {lang}) {
     };
 
 
-    //avtivate marker location aquiëre funtion only once first loaded.
+    //avtivate marker location require function only once first loaded.
     useEffect(() => {
         getLocations();
     }, []);
@@ -63,16 +69,17 @@ export default function ViewMap({i18n}, {lang}) {
                 </Text>
             </View>)
     } else {
-        // console.log("location data hoera...:",location)
+
         return (
             <React.Fragment>
-                <Text style={styles.title}>
+                <Text style={theme === 'l'? styles.title:styles.titleDark}>
                     {i18n.t("Welcome")}
                 </Text>
 
                 <MapView style={styles.map}
                          howsUserLocation
                          showsMyLocationButton
+                         userInterfaceStyle={theme}
                          initialRegion={{
 
                              latitude: location.coords.latitude !== null ? location.coords.latitude
@@ -119,6 +126,7 @@ export default function ViewMap({i18n}, {lang}) {
                                         ? landMark.description.pt
                                         : landMark.description.en
                             }
+
                         />))
                     }
                 </MapView>

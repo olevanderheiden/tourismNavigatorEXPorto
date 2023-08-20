@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from "react";
-import {FlatList, Pressable, StyleSheet, Text, View} from "react-native";
+import {FlatList, Pressable, StyleSheet, Text, useColorScheme, View} from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {styles} from "../components/style";
 
 
 export default function FavoritesView({i18n}) {
 
+
+    const theme = useColorScheme();
     //initialise data
     const [localData, setLocalData] = useState([]);
     const [loaded, setLoaded] = useState(false);
@@ -14,23 +16,25 @@ export default function FavoritesView({i18n}) {
 
     // Function to load favorites from async storage.
     async function loadFavorites(landMarkObject) {
-        let landMarks = await AsyncStorage.getItem('landMarks');
+        let landMarks = await AsyncStorage.getItem('favorites');
         landMarks = JSON.parse(landMarks)
         setLocalData(landMarks);
         setLoaded(true);
-        console.log("loaded landmarks: ",localData)
+
     }
 
     //Creates items to show in listview based on localstorage
     const Item = ({landMarkObject}) => (
-        <View style={styles.container}>
-            <Text>
+        <View style={theme === 'light'? styles.container: styles.containerDark}>
+            <Text style={theme === 'dark' ? styles.itemStyleDark: styles.itemStyle}>
                 {
-                    i18n.locale() === "nl"
+                    //determin language used
+                    i18n.locale === "nl"
                         ? landMarkObject.title.nl
-                        : i18n.locale() === "pt"
+                        : i18n.locale === "pt"
                             ? landMarkObject.title.pt
-                            : landMarkObject.title.en}
+                            : landMarkObject.title.en
+                }
             </Text>
         </View>
     );
@@ -47,17 +51,17 @@ export default function FavoritesView({i18n}) {
     if (!loaded) {
         return (
             <React.Fragment>
-                <Text style={styles.title}>
+                <Text style={theme === 'l'? styles.title:styles.titleDark}>
                     {i18n.t("loading")}
                 </Text>
             </React.Fragment>
         )
     } else {
-        console.log('else loaded...')
+
         return (
 
             <React.Fragment>
-                <Text style={styles.title}>
+                <Text style={theme === 'light'? styles.title:styles.titleDark}>
                     {i18n.t('FavoritesList')}
                 </Text>
                 <FlatList
